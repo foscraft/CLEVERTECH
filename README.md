@@ -1,4 +1,4 @@
-Problem Description:
+#### 1.  Problem Description:
 
 You are tasked with creating a Python script that analyzes log files from a server and extracts meaningful information. The log files are in a custom format, and each entry in the log file represents an event on the server.
 
@@ -43,3 +43,10 @@ You are encouraged to use any standard Python libraries to accomplish this task.
     The goal is to create a solution that is not only correct but also well-organized and easy to understand.
 
 This problem covers aspects of file I/O, string parsing, data manipulation, and user interaction. It assesses the candidate's ability to design a solution for a real-world problem and implement it using Python.
+
+
+#### 2. Problem Title: Finding Common Elements in Two Arrays
+
+Problem Description:
+
+You are given two arrays of integers, arr1 and arr2. Write a Python function that finds and returns an array containing the common elements between the two arrays. The order of elements in the resulting array should be the same as they appear in the first array (arr1).
