@@ -108,3 +108,54 @@ Note:
 The graph is represented as an adjacency matrix where float('inf') indicates no direct edge between nodes.
 You need to find the shortest path from the source node to the destination node using an appropriate algorithm (e.g., Dijkstra's algorithm or Bellman-Ford algorithm).
     Consider edge cases, such as negative weights and the absence of a path between nodes.
+
+#### 4. Problem Title: Knapsack Problem
+
+Problem Description:
+
+You are a burglar planning to rob houses in a neighborhood. Each house has a certain amount of money stashed, and you are limited by the size of your knapsack, which can only carry a maximum weight.
+
+Write a Python function to determine the maximum amount of money you can rob without alerting the police. You cannot rob two adjacent houses because the security system will immediately alert the police.
+
+Write a function with the following signature:
+
+```python
+
+def max_robbery_amount(house_values, knapsack_capacity):
+    # Your code here
+    pass
+```
+
+Input:
+
+house_values: A list representing the amount of money stashed in each house. Each element represents the value of money in a house.
+
+knapsack_capacity: An integer representing the maximum weight your knapsack can carry.
+
+Output:
+
+The function should return the maximum amount of money you can rob without alerting the police.
+
+Example:
+
+```python
+
+house_values = [6, 7, 1, 30, 8, 2, 4]
+knapsack_capacity = 5
+result = max_robbery_amount(house_values, knapsack_capacity)
+print(result)
+```
+
+Expected Output:
+
+```
+41
+```
+
+Note:
+
+You can assume that all house values are non-negative integers.
+The knapsack has a limited capacity, and you cannot rob adjacent houses.
+The goal is to maximize the total value of money stolen without alerting the police.
+
+This problem is a classic dynamic programming problem known as the 0/1 Knapsack Problem. It challenges you to think about how to efficiently compute the maximum value that can be achieved given certain constraints. Feel free to implement the solution and test it with different inputs.
